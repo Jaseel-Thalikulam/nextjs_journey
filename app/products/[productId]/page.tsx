@@ -1,4 +1,5 @@
 import { Metadata } from 'next'
+import Link from 'next/link'
 import React from 'react'
 
 /*
@@ -35,7 +36,10 @@ export const generateMetadata = ({ params }: Props):Metadata => {
 const productDetail = ({params}:Props) => {
   return (
     
-      <div>productDetail of product {params.productId}</div>
+    <div>
+      <Link href="/">Go to Home</Link>
+      productDetail of product {params.productId}
+    </div>
   )
 }
 

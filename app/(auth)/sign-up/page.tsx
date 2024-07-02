@@ -1,8 +1,12 @@
+import Link from 'next/link'
 import React from 'react'
 
 const signUp = () => {
   return (
-    <div>signUp</div>
+    <div>
+       <Link href="/">Go to Home</Link>
+      signUp
+    </div>
   )
 }
 
